@@ -1,11 +1,26 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+  
+  for ( i = 0; i < word.length / 2; i++ {
+    
+    const j = word.length - 1 - i;
+    
+    if (word[i] !== word[j]) return false;
+  }
+  return true;
+};
 
 /* 
   Add your pseudocode here
+  
+  create loop that runs through half the list
+  create a reverse loop to that compares each letter from front to back assinged to a new variable
+  if statement that compares the orginal loop to the reverse loop
+  
+  
+  
 */
-
+ 
 /*
   Add written explanation of your solution here
 */
